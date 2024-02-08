@@ -1,0 +1,5 @@
+1) npm init -y
+2) npm install @nestjs/common@10.3.1 @nestjs/core@10.3.1 @nestjs/platform-express@10.3.1 reflect-metadata@0.1.13 typescript@4.3.2
+3) tsc --init
+4) un comment from tsconfig.json ("experimentalDecorators": true) and ("emit Decorator Metadata": true)
+5) npx ts-node-dev src/main.ts
